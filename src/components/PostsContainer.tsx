@@ -1,9 +1,12 @@
+import { Dispatch, SetStateAction } from "react";
 import { PostItem } from "../data/PostItem";
 import { Post } from "./Post";
 
 import "./PostsContainer.css";
 
-type Props = { posts: PostItem[] };
+type Props = {
+  posts: PostItem[];
+};
 
 export function PostsContainer({ posts }: Props) {
   return (
