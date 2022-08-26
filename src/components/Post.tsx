@@ -1,8 +1,6 @@
-import { Dispatch, SetStateAction } from "react";
 import { PostItem } from "../data/PostItem";
 
 import "./Post.css";
-import { PostsContainer } from "./PostsContainer";
 
 type Props = {
   post: PostItem;
@@ -25,6 +23,9 @@ export function Post({ post }: Props) {
         // setPosts({ ...posts, comments: [...posts.comments, comment] });
         // post.comments.push(comment);
         // setPosts([...posts, comment]);
+        
+        //try adding comment/setcomment state to this file and then doing:
+        //setComments([...comments, comment]);
       });
   }
   return (

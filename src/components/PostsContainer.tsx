@@ -17,7 +17,7 @@ export function PostsContainer({ posts }: Props) {
           className="comment-input"
           type="text"
           name="title"
-          id="title"
+          id="title"  
           placeholder="Add a title..."
         />
         <input
